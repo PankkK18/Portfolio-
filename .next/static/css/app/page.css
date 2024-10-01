@@ -1,0 +1,42 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./app/app.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.cover-image {
+    position: relative;
+    height: 400px; /* Adjust as needed */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    overflow: hidden; /* Ensure image doesn't overflow */
+  }
+  
+  .cover-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/_next/static/media/cover.810002fd.jpeg); /* Path to your cover image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust the transparency level (0 to 1) */
+    z-index: -1; /* Place the image behind the text */
+  }
+  
+  .cover-content {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background image */
+    text-align: center; /* Center text */
+    color: white; /* Ensure text is readable against the background */
+  }
+  .overflow-hidden {
+    overflow: hidden; /* Hides scrollbars */
+  }
+  
+  .transition-transform {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for hover */
+  }
+  
