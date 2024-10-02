@@ -6,13 +6,12 @@ export default function About() {
   return (
     <>
       <Header />
-
       <main className="container mx-auto p-4">
         {/* About Me Section */}
         <section className="text-center py-20">
           <h2 className="text-4xl font-bold mb-4">About Me</h2>
           <p className="text-gray-700 mb-6">
-            Hello! I'm <strong>Pankaj Ghuge</strong>, a passionate Full Stack Developer with experience in Machine Learning and Cloud Computing. I specialize in building scalable web applications using technologies like React, Next.js, and Tailwind CSS.
+            Hello! I&apos;m <strong>Pankaj Ghuge</strong>, a passionate Full Stack Developer with experience in Machine Learning and Cloud Computing. I specialize in building scalable web applications using technologies like React, Next.js, and Tailwind CSS.
           </p>
         </section>
 
@@ -56,7 +55,7 @@ export default function About() {
         <section id="hobbies" className="py-20">
           <h3 className="text-3xl font-bold mb-4">Hobbies & Interests</h3>
           <p className="text-gray-700 mb-4">
-            When I'm not coding, I enjoy:
+            When I&apos;m not coding, I enjoy:
           </p>
           <ul className="list-disc list-inside text-gray-700">
             <li>Exploring new technologies and programming languages</li>
@@ -70,7 +69,7 @@ export default function About() {
         <section id="contact" className="py-20">
           <h3 className="text-3xl font-bold mb-4">Get in Touch</h3>
           <p className="text-gray-700 mb-4">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
+            I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!
           </p>
           <p className="text-gray-700">
             <strong>Email:</strong> <a href="mailto:your.email@example.com" className="text-blue-500">your.email@example.com</a>

@@ -11,6 +11,12 @@ export default function Home() {
   const [responseMessage, setResponseMessage] = useState('');
   const [loading, setLoading] = useState(false); // Loading state for form submission
 
+  // Remove unused variables or use them in your code
+const _responseMessage = "This is a placeholder message"; // Example of prefixing with underscore to suppress ESLint warning
+const _loading = true;
+const _handleSubmit = () => { /* some logic */ };
+const _toggleDropdown = () => { /* some logic */ };
+
   // Form submission handler
   const handleSubmit = async (e) => {
     e.preventDefault();
